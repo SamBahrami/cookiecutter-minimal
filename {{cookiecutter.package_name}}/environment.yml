@@ -15,6 +15,7 @@ dependencies:
   - click
   - jupyter
   - pyyaml
+  - pip
   - pip:
     - tqdm
     - -e .
