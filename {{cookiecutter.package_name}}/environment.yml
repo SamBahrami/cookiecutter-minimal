@@ -1,0 +1,20 @@
+name: {{cookiecutter.package_name}}
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.6
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - pytest
+  - flake8
+  - rope
+  - click
+  - jupyter
+  - pyyaml
+  - pip:
+    - tqdm
+    - -e .

@@ -13,7 +13,7 @@ def read(filename):
         return re.sub(text_type(r':[a-z]+:`~?(.*?)`'), text_type(r'``\1``'), fd.read())
 
 requirements = [
-    # package requirements go here
+    # use environment.yml
 ]
 
 setup(

@@ -1,22 +1,30 @@
+{{ cookiecutter.package_name|count * "=" }}
 {{ cookiecutter.package_name }}
 {{ cookiecutter.package_name|count * "=" }}
 
 {{ cookiecutter.package_description }}
 
 Usage
------
+=====
 
 Installation
 ------------
+.. code-block:: bash
 
-Requirements
-^^^^^^^^^^^^
+  $ conda env create --file environment.yaml
+  $ conda activate {{cookiecutter.package_name}}
 
-Compatibility
--------------
+Tests
+-----
+.. code-block:: bash
 
-Licence
--------
+  $ pytest tests
+
+Command Line Interface
+----------------------
+.. code-block:: bash
+
+  $ {{cookiecutter.package_name}} --help
 
 Authors
 -------
