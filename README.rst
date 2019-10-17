@@ -10,5 +10,5 @@ Usage
 .. code::
 
     $ pip install cookiecutter
-    $ cookiecutter https://github.com/khornlund/cookiecutter-minimal
+    $ cookiecutter https://github.com/SamBahrami/cookiecutter-minimal
 
