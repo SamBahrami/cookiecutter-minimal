@@ -1,8 +1,8 @@
 {
     "repo_name": "my_repo_name",
-    "author_name": "Karl Hornlund",
-    "author_email": "karlhornlund@gmail.com",
-    "github_username": "khornlund",
+    "author_name": "Sam Bahrami",
+    "author_email": "bahrami.sam@gmail.com",
+    "github_username": "SamBahrami",
     "package_version": "0.0.1",
     "package_description": "Short description",
     "package_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_').replace('-', '_') }}",
